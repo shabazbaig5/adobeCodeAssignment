@@ -29,7 +29,8 @@ class CardsGrid extends Component{
             let filteredData = data.cardData.filter((item) => {
 
                 if(item.company){
-                    return item.company.toLowerCase() == e.value;
+                    
+                    return item.company.toLowerCase() == e.value.toLowerCase();
     
                 }
     

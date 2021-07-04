@@ -1,6 +1,6 @@
 # Steps to run
-1> Run npm install to install all the node modules required
-2> Run npm start to run the application
+1 -> Run npm install to install all the node modules required.
+2 -> Run npm start to run the application
 
 
 # Features added.
