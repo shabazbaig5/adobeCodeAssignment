@@ -7,7 +7,7 @@
 - I have designed the navbar banner and the featured app sections from the web page.
 - Added a search funtionality with test data stored in data/productData.js file.
 - Based on the serach paramaeters the state of the featured app will be rendered with an on click handler
-
+- User can also use the enter button to search instead on clicking on search button
 
 
 
