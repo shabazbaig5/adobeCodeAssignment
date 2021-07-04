@@ -17,7 +17,6 @@ class CardsGrid extends Component{
 
     handleSearch = (e) => {
 
-        console.log(e.value);
         if(e.value == ""){
 
             this.setState({
@@ -29,13 +28,12 @@ class CardsGrid extends Component{
             let filteredData = data.cardData.filter((item) => {
 
                 if(item.company){
-                    
+
                     return item.company.toLowerCase() == e.value.toLowerCase();
     
                 }
     
             });
-            console.log(filteredData);
             this.setState({
                 cardData : filteredData
             });
@@ -59,8 +57,6 @@ class CardsGrid extends Component{
                 <div className="cardsGridwrapper">
                     {
                         this.state.cardData.map((item,index) => {
-                            // console.log(item);
-                            console.log(index);
                             return <Card key={index} cardData = {item}/>
                         })
                     }

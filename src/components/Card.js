@@ -29,10 +29,7 @@ class Card extends Component{
                         this.props.cardData.summary
                     }
                 </p>
-                {/* {
-                    console.log(this.props.cardData.title)
-
-                } */}
+             
             </div>
         )
     }

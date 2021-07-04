@@ -7,9 +7,9 @@ class SearchCard extends Component{
     keyPress = (e) => {
 
         if(e.keyCode == 13){
-           console.log('value', e.target.value);
-           // put the login here
-           console.log(this.props.handleSearch(document.querySelector('#searchField')));
+   
+            this.props.handleSearch(document.querySelector('#searchField'));
+
         }
      }
     render(){
@@ -17,9 +17,9 @@ class SearchCard extends Component{
 
         return (
             <>
-                <div class="searchWrapper">
+                <div className="searchWrapper">
                     
-                    <input type='text' className={MdSearch} onKeyDown={this.keyPress} id='searchField' placeholder="Search Marketplace" />
+                    <input type='text' onKeyDown={this.keyPress} id='searchField' placeholder="Search Marketplace" />
                     <button id="searchProducts" onClick = {
                         () => {
                             this.props.handleSearch(document.querySelector('#searchField'));
