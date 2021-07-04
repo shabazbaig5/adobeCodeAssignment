@@ -1,3 +1,26 @@
+# Steps to run
+1> Run npm install to install all the node modules required
+2> Run npm start to run the application
+
+
+# Features added.
+- I have designed the navbar banner and the featured app sections from the web page.
+- Added a search funtionality with test data stored in data/productData.js file.
+- Based on the serach paramaeters the state of the featured app will be rendered with an on click handler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
