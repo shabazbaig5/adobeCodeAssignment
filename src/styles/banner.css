@@ -1,0 +1,20 @@
+.bannerWrapper{
+
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position:50% 50%;
+    color: white;
+   
+}
+
+.bannerContent{
+
+    margin: auto;
+    width : 60%;
+    padding: 10px;
+
+}

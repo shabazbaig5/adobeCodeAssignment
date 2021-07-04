@@ -1,3 +1,14 @@
+html, body{
+  height : 100%;
+  width: 100%;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  /* font-family: "Adobe Clean",adobe-clean,sans-serif; */
+    /* font-weight: 300; */
+    /* line-height: 1.5; */
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +37,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#topNavBar{
+  background-color: #FFFFFF;
 }
 
 @keyframes App-logo-spin {
