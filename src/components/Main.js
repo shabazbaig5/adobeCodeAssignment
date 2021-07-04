@@ -12,10 +12,6 @@ class Main extends Component{
                     <Banner />
                 </section>
 
-                {/* <section className="searchSection">
-                    <SearchCard /> 
-                </section> */}
-
                 <section className="cards">
                     <CardsGrid />
                 </section>
